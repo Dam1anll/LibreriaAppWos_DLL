@@ -19,23 +19,23 @@ namespace Libreria_DLL.Data
                 {
                     context.Books.AddRange(new Book()
                     {
-                        Titulo = "Gimme sum' of that",
-                        Descripcion = "A true love story",
+                        Titulo = "Titulo1",
+                        Descripcion = "Description1",
                         IsRead = true,
                         DateRead = DateTime.Now.AddDays(-10),
-                        Rate = 4,
-                        Genero = "Amor",
+                        Rate = 7,
+                        Genero = "Comedia",
                         CoverUrl = "https...",
                         DateAdded = DateTime.Now,
                     },
                      new Book()
                      {
-                         Titulo = "Gimme sum' of that",
-                         Descripcion = "A true love story",
+                         Titulo = "Titulo2",
+                         Descripcion = "Descripcion2",
                          IsRead = true,
                          DateRead = DateTime.Now.AddDays(-10),
-                         Rate = 4,
-                         Genero = "Amor",
+                         Rate = 10,
+                         Genero = "Terror",
                          CoverUrl = "https...",
                          DateAdded = DateTime.Now,
                      });
